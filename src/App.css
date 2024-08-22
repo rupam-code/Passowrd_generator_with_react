@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("https://img.freepik.com/free-vector/abstract-background-with-security-connections_23-2147635527.jpg?size=626&ext=jpg&ga=GA1.1.762029599.1722580956&semt=ais_hybrid");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.passowordBox{
+  width: 350px;
+  padding: 20px;
+  height: 320px;
+  
+}
+
+.passwordBoxin{
+  display: flex;
+}
+
+.passwordBoxin input {
+  flex-basis: 80%;
+  padding-left: 5px;
+}
+
+.passwordBoxin  button {
+  flex-basis: 30%;
+  padding:  10px 0px;
+}
+.head {
+  color: aliceblue;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.passLength {
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.passLength label {
+  color: aliceblue;
+  flex-basis: 80%;
+}
+
+.passLength input {
+  width: 60px;
+}
+
+.btn {
+  width: 100%;
+  height: 10%;
+  font-style: bold;
+  cursor: pointer;
+}
